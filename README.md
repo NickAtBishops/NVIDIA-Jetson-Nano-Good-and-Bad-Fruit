@@ -83,7 +83,6 @@ To test your re-trained ResNet-18 model, it needs to be converted into the ONNX 
 3. Go to **jetson-inference/python/training/classification/models/ANY_NAME_YOU_WANT** and look for a file named **resnet18.onnx**. This is your re-trained model!
 
 ### Testing the Trained Network on Images
-Here is a link to my video explaination of this section if needed: [link](https://www.youtube.com/watch?v=WBXemKaRNOs)
 1. Exit the Docker container by pressing **Ctl + D** in the terminal.
 2. On your Nano, navigate to **jetson-inference/python/training/classification**.
 3. Check if the model exists on the Nano by executing **ls models/ANY_NAME_YOU_WANT/**. You should see a file named **resnet18.onnx**.
